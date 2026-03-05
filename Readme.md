@@ -27,12 +27,20 @@ The predicted traffic values were compared with actual values to evaluate how we
 
 ## Project Structure
 Traffic_Prediction/
-│
-├── data/
-│
-├── models/
-│
-├── notebooks/
-│   traffic_prediction_model.ipynb
-│
-└── README.md
+|
+|--data/
+|
+|--models/
+|
+|--notebooks/
+|  traffic_prediction_model.ipynb
+|
+|--README.md
+
+
+## Future Improvements
+
+- Add additional lag features (lag_2, lag_3, lag_6)
+- Experiment with other models such as Random Forest and Gradient Boosting
+- Build an API service to serve predictions
+- Deploy the model as a simple web application
